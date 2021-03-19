@@ -1,0 +1,26 @@
+server:
+  port: 9999
+
+spring:
+  servlet:
+    multipart:
+      max-request-size: 50MB
+      max-file-size: 200MB
+  resources:
+    static-locations: classpath:/templates/
+  mvc:
+    static-path-pattern: /**
+
+forge:
+  channel:
+    channels:
+      - "xiaomi"
+      - "huawei"
+      - "official"
+      - "oppo"
+      - "vivo"
+  storage:
+    upload-path:
+      location: upload-dir
+      channel-apk-folder: apks
+      zip-apk-folder: zipApks

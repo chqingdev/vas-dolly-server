@@ -1,0 +1,11 @@
+target
+project-android-channel.iml
+.idea
+upload-dir
+upload-dir/*
+.DS_Store
+*/.DS_Store
+zipApks
+apks
+test-apk-dir
+test-apk-dir/*
