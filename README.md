@@ -75,7 +75,7 @@ public final class ChannelHelper {
 
 ### Future: 
 - 目前的错误处理并不人性化，优化异常处理信息；
-- 支持同一时刻多渠道打包。
+- 支持同一时刻多人同时构建渠道。
 - 支持 windows 服务启动脚本
 
 
