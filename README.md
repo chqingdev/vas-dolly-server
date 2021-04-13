@@ -51,7 +51,7 @@ public final class ChannelHelper {
 
 ### 渠道配置和服务部署
 
-1、打包。下载编译后的服务端程序压缩包，执行 ```./bin/start.sh``` (原谅我暂时没支持 window)，服务启动后打开 http://host:9999 访问服务，上床 apk 选择渠道生成渠道包。
+1、打包。下载编译后的服务端程序压缩包，执行 ```./bin/start.sh``` (原谅我暂时没支持 window)，服务启动后打开 http://host:9999 访问服务，上传 apk 选择渠道生成渠道包。
 ![pic](snapshot/screen-record.gif)
 
 2、打包完成后会自动下载 channels.zip 文件，解压 channels.zip 文件 channelName-文件名称.zpk 就是生成后的渠道包。
